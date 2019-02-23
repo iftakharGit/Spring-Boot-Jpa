@@ -8,11 +8,20 @@
         <version>2.2.0.BUILD-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <developers>
+        <developer>
+            <email>iftakhar.ahamad@outlook.com</email>
+            <name>Mohd Iftakhar</name>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
     <groupId>com.iftakhar</groupId>
     <artifactId>boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>boot</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Jpa project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
