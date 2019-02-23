@@ -10,7 +10,7 @@ public class Citizen {
     @Column(name = "citizen_id")
     private Integer id;
 
-    @Column(name="citizen_name")
+    @Column(name = "citizen_name")
     private String Name;
 
     @Column(name = "citizen_age")
