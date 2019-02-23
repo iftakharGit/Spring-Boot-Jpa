@@ -3,7 +3,7 @@ spring:
     name: jpa
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     database-platform: org.hibernate.dialect.Oracle12cDialect
     show-sql: true
     properties:
