@@ -12,7 +12,7 @@ public class Aadhaar {
     @Column(name = "aadhhar_number")
     private String aadhaarNumber;
 
-    @OneToOne(mappedBy = "aadhaar",fetch = FetchType.LAZY)
+    @OneToOne(mappedBy = "aadhaar", fetch = FetchType.LAZY)
     private Citizen citizen;
 
     public Aadhaar() {
@@ -21,7 +21,7 @@ public class Aadhaar {
     public Aadhaar(Integer id, String aadhaarNumber, Citizen citizen) {
         this.id = id;
         this.aadhaarNumber = aadhaarNumber;
-        this.citizen=citizen;
+        this.citizen = citizen;
     }
 
     public Integer getId() {
@@ -39,11 +39,12 @@ public class Aadhaar {
     public void setAadhaarNumber(String aadhaarNumber) {
         this.aadhaarNumber = aadhaarNumber;
     }
-    public Citizen getCitizen(){
+
+    public Citizen getCitizen() {
         return this.citizen;
     }
 
-    public void setCitizen(Citizen citizen){
-        this.citizen=citizen;
+    public void setCitizen(Citizen citizen) {
+        this.citizen = citizen;
     }
 }
